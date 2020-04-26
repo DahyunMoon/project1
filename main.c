@@ -273,7 +273,7 @@ void load_file(){
 }
 
 void save_file(){
-	FILE* f = fopen("infos.txt", "w");
+	FILE* f = fopen("infos_new.txt", "w");
 	printf("All records.\n");
 	int size = info_count();
 	T_Record* records[MAX_MEMBERS];
